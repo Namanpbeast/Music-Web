@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+body::before{
+     background: url("wp3413579.webp") no-repeat center center;
+      z-index: -1;
+     content: "";
+     width:100%;
+     height: 100%;
+     position: absolute;
+     top:0px  
+     
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+i{
+    cursor: pointer;
+}
+nav {
+   
+    
+    color: white;
+
+    font-family: 'Balsamiq Sans', cursive;
+    
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    padding-right: 2em;
+}
+
+.navitem {
+    margin-left: 1.5em;
+    font-weight: 400;
+}
+
+.logo img {
+    filter: invert(100%);
+    width: 100px;
+    height: 60px;
+    margin: 0px;
+}
+
+.content {
+    height: 75vh;
+    background: url("wp3413579.webp") no-repeat center center;
+    display: flex;
+   flex-direction: column;
+}
+h1{
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+    
+}
+.songlist{
+    /* border:2px solid blue; */
+    margin-left: 20px;
+    margin-top: 26px;
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+    width:35%;
+    text-align: center;
+}
+
+.song{
+    display: flex;
+    color:black;
+    font-family: 'Noto Sans', sans-serif;
+    height:2.5em;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:10px;
+}
+.song img{
+    width:30px;
+    height:20px;
+    border-radius:inherit;
+}
+
+.bottom {
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    position: sticky;
+    bottom: 0px;
+    height: 7em;
+    color:white;
+    flex-direction: column;
+}
+.songinfo{
+    
+    position:absolute;
+    left:20px;
+    font-family: 'Balsamiq Sans', cursive;
+
+}
+#gif{
+    width: 50px;
+    height: 20px;
+    opacity: 0;
+    margin-left:27.5vw;
+    transition: opacity .5s ease-in;
+}
+.icon-play{
+    display: flex;
+    margin-top:20px;
+    align-items: center;
+    justify-content: space-around;
+    width:75vw;
+}
+.icon-play input{
+    margin: 6px;
+   
+}
+#song_progress {
+    width: 95%;
+    cursor: pointer;
+}
