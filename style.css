@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 body::before{
-     background: url("wp3413579.webp") no-repeat center center;
+     background: url("image/wp3413579.webp") no-repeat center center;
       z-index: -1;
      content: "";
      width:100%;
@@ -73,7 +73,7 @@ h1{
     margin-top: 26px;
     color: white;
     font-family: 'Balsamiq Sans', cursive;
-    width:35%;
+    width:35vw;
     text-align: center;
 }
 
@@ -81,10 +81,10 @@ h1{
     display: flex;
     color:black;
     font-family: 'Noto Sans', sans-serif;
-    height:2.5em;
+    height:7.5vh;
     background-color: white;
     border-radius: 10px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-top:10px;
 }
@@ -92,6 +92,10 @@ h1{
     width:30px;
     height:20px;
     border-radius:inherit;
+    margin-left: 10px;
+}
+.song i{
+    margin:0px 14px;
 }
 
 .bottom {
@@ -111,11 +115,16 @@ h1{
     font-family: 'Balsamiq Sans', cursive;
 
 }
+
+#song_play_name{
+    
+    font-weight: bold;
+}
 #gif{
     width: 50px;
     height: 20px;
     opacity: 0;
-    margin-left:27.5vw;
+    margin-left:10vw;
     transition: opacity .5s ease-in;
 }
 .icon-play{
