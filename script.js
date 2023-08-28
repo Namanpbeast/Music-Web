@@ -76,9 +76,10 @@ element.addEventListener('click',(e)=>{
        songindx=parseInt(e.target.id);
        
        makeAllbtnPlay();
-       
-       if(audioelement.src==`http://127.0.0.1:5500/song/${songindx}.mp3`){
-            playcontrol();
+       console.log(audioelement.src);
+       if(audioelement.src==`http://127.0.0.1:5500/Music_Project/song/${songindx}.mp3`){
+        
+             playcontrol();
        }
        
        else{
